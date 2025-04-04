@@ -34,7 +34,7 @@
 ### Key Observations
 1. **Feature Selection Attempts**:
    - Tried using only top correlated features → No AUC improvement
-    ![Screenshot](Latent Space Projection.png])
+    ![Screenshot]([Latent Space Projection.png])
    - Attempted outlier handling (min and max bound) → No significant gain
 
 2. **Autoencoder Behavior**:
