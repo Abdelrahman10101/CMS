@@ -34,7 +34,8 @@
 ### Key Observations
 1. **Feature Selection Attempts**:
    - Tried using only top correlated features → No AUC improvement
-    ![Screenshot]([CMS/Event Classification with Masked Transformer Autoencoders/Latent Space Projection.png])
+![Latent Space Projection](https://raw.githubusercontent.com/Abdelrahman10101/CMS/main/Event%20Classification%20with%20Masked%20Transformer%20Autoencoders/Latent%20Space%20Projection.png)
+
    - Attempted outlier handling (min and max bound) → No significant gain
 
 2. **Autoencoder Behavior**:
