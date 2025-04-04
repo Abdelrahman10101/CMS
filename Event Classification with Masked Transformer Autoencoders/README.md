@@ -1,8 +1,6 @@
 ### Data Analysis & Preparation
 1. **Data Loading & Cleaning**:
-   - Loaded train/test parquet files (1.1M samples each)
    - Verified no null values (`isna().sum()` shows 0 nulls)
-   - Renamed columns to standardized format (y, x1-x21)
 
 2. **Feature Analysis**:
    - Identified top correlated features with target (y):
@@ -20,7 +18,7 @@
    - **Combined Model**: TAE reconstructions concatenated with original features
 
 2. **Training Strategies**:
-   - **Large Batch Size**: 8192 for GPU utilization
+   - **Large Batch Size**: 8192 for GPU utilization and fast training
    - **Learning Rate**:
      - Initial LR: 0.001
      - ReduceLROnPlateau (min_lr=0.00025) when validation metric plateaus
@@ -30,15 +28,13 @@
      2. Then train classifier (BCE loss) using frozen TAE
 
 ### Results
-- **Best Validation AUC**: 0.7936
 - **Test AUC**: 0.7936 (no label bias)
-- **Accuracy**: 72.07%
-- Training showed consistent improvement up to 100 epochs
+
 
 ### Key Observations
 1. **Feature Selection Attempts**:
    - Tried using only top correlated features → No AUC improvement
-   - Attempted outlier removal → No significant gain
+   - Attempted outlier handling (min and max bound) → No significant gain
 
 2. **Autoencoder Behavior**:
    - Reconstruction likely captures latent patterns
