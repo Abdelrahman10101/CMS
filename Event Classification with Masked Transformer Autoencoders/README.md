@@ -1,5 +1,3 @@
-Here are the key features and insights from your notebook:
-
 ### Data Analysis & Preparation
 1. **Data Loading & Cleaning**:
    - Loaded train/test parquet files (1.1M samples each)
