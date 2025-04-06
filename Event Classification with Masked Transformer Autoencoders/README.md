@@ -6,7 +6,6 @@
    - Identified top correlated features with target (y):
      - Positive: x14, x6, x13, x1, x18, x17, x10, x21, x9
    - Generated correlation heatmap and feature-target bar plot
-   - Basic statistics show well-scaled features (means ~0, stds ~1)
 
 ### Modeling Approach
 1. **Architecture**:
