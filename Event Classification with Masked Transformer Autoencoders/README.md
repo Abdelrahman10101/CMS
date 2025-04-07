@@ -28,7 +28,7 @@
 
 ### Results
 - **Test AUC**: 0.8040 
-  ![ROC Curve.png]([(https://github.com/Abdelrahman10101/CMS/blob/main/Event%20Classification%20with%20Masked%20Transformer%20Autoencoders/ROC%20Curve.png)])
+  ![ROC Curve.png](https://github.com/Abdelrahman10101/CMS/blob/main/Event%20Classification%20with%20Masked%20Transformer%20Autoencoders/ROC%20Curve.png)
 
 
 ### Key Observations
