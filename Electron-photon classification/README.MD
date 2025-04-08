@@ -31,7 +31,7 @@
    - Achieved final test AUC of 0.8104
    - Best validation accuracy of 0.7398
    - Confusion matrix shows balanced performance across classes
-
+![ROC Curve.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/ROC%20Curve.png)
 ## Key Observations
 
 1. **Training Dynamics**:
