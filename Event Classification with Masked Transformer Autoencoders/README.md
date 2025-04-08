@@ -6,6 +6,7 @@
    - Identified top correlated features with target (y):
      - Positive: x14, x6, x13, x1, x18, x17, x10, x21, x9
    - Generated correlation heatmap and feature-target bar plot
+     ![Feature-Target Correlation.png](https://github.com/Abdelrahman10101/CMS/blob/main/Event%20Classification%20with%20Masked%20Transformer%20Autoencoders/Feature-Target%20Correlation.png)
 
 ### Modeling Approach
 1. **Architecture**:
