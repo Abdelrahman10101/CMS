@@ -28,8 +28,8 @@
 
 5. **Performance Metrics**:
    - Tracked both accuracy and AUC (Area Under ROC Curve)
-   - Achieved final test AUC of 0.8094
-   - Best validation accuracy of 0.7387
+   - Achieved final test AUC of 0.8104
+   - Best validation accuracy of 0.7398
    - Confusion matrix shows balanced performance across classes
 
 ## Key Observations
