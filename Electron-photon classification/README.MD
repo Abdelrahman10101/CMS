@@ -5,9 +5,12 @@
    - Created RGB overlays combining both channels (energy in green, time in red) to understand feature relationships
    - Observed distinct patterns between electron and photon events in both energy distribution and timing
    - Electron:
+
 ![Electron Channels.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Electron%20Channels.png)
 ![Electron.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Electron.png)
+
    - Photon:
+
 ![Photon Channels.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Photon%20Channels.png)
 ![Photon.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Photon.png)
 
