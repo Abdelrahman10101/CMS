@@ -4,6 +4,12 @@
    - Visualized electron and photon samples by plotting both energy deposit (channel 0) and hit time (channel 1) separately
    - Created RGB overlays combining both channels (energy in green, time in red) to understand feature relationships
    - Observed distinct patterns between electron and photon events in both energy distribution and timing
+   - Electron:
+![Electron Channels.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Electron%20Channels.png)
+![Electron.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Electron.png)
+   - Photon:
+![Photon Channels.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Photon%20Channels.png)
+![Photon.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Photon.png)
 
 2. **Data Preparation**:
    - Loaded 249k samples each for electrons (label=0) and photons (label=1)
@@ -32,6 +38,7 @@
    - Best validation accuracy of 0.7398
    - Confusion matrix shows balanced performance across classes
 ![ROC Curve.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/ROC%20Curve.png)
+![Confussion Matrix.png](https://github.com/Abdelrahman10101/CMS/blob/main/Electron-photon%20classification/Confussion%20Matrix.png)
 ## Key Observations
 
 1. **Training Dynamics**:
